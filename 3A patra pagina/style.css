@@ -3,8 +3,12 @@
 
 }
 
+.container {
+    width: 100%
+    max-width: 1200px;
+    margin: 0 auto;
+}	
 
-	
 
 .section {
     padding: 10px 0;
@@ -18,11 +22,13 @@
     text-align: center;
 }
 
+
 .section__suptitle {
     font-family: 'Kaushan Script', cursive;
     font-size: 24px;
     color: #333;
 }
+
 
 .section__title {
     font-size: 30px;
@@ -43,10 +49,11 @@
 
 .section__text {
     font-size: 15px;
-    color: #999;
+    color: black;
+
 }
 
-/*About*/
+
 
 .about {
     margin-top: 80px;
